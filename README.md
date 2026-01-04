@@ -1,7 +1,7 @@
-# 👻 GhostPass Node v8.1
+# 👻 GhostPass Node v8.2
 
 **The Hybrid Mnemonic Licensing Standard for Humans.**  
-GP-Node-V8.1 is the core cryptographic node and documentation hub for the GhostPass system. It translates complex licensing data into human-readable 12-word phrases using the BIP-39 standard.
+GP-Node-V8.2 is the core cryptographic node and documentation hub for the GhostPass system. It translates complex licensing data into human-readable 12-word phrases using the BIP-39 standard.
 
 ---
 

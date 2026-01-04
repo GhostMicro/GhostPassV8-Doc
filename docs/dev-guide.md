@@ -1,9 +1,11 @@
 # Developer Guide: GhostPass Engine
 
-Technical implementation details for developers integrating with the GhostPass v8.1 standard.
+Technical implementation details for developers integrating withรายละเอียดทางเทคนิคสำหรับการนำไปใช้งาน สำหรับนักพัฒนาที่ต้องการเชื่อมต่อกับมาตรฐาน GhostPass v8.2 (Scrambling Edition)
+ standard.
 
 ## 📐 Data Architecture
-GhostPass v8.1 uses a **Position-Based Mapping** approach rather than raw bit-stream serialization. 
+GhostPass v8.2 ใช้แนวทาง **Position-Based Mapping** ควบคู่ไปกับ **Scrambling Layer** เพื่อกระจายข้อมูลให้ดูสุ่มสมบูรณ์แบบ
+. 
 
 - **Dictionary**: 2048 words (BIP-39 English).
 - **Indexing**: Each word index is an 11-bit integer (0 to 2047).
